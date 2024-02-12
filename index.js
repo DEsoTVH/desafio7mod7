@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const cafes = require("./cafes.json"); // Modifica la ruta si es necesario
+const cafes = require("./cafes.json"); 
 
 app.listen(3000, () => {
   console.log("SERVER ON");
